@@ -7,28 +7,84 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		0C700674256BCDE00098A6BA /* OCWidgetView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0C700659256BCCC80098A6BA /* OCWidgetView.swift */; };
+		0C700682256BE0E20098A6BA /* WidgetURLViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 0C700681256BE0E20098A6BA /* WidgetURLViewController.m */; };
+		0C700685256BE0F30098A6BA /* WidgetURLViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 0C700681256BE0E20098A6BA /* WidgetURLViewController.m */; };
+		0C700692256BE9A70098A6BA /* SceneDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 0C700690256BE9A70098A6BA /* SceneDelegate.m */; };
+		0C700696256BE9B00098A6BA /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 0C700695256BE9B00098A6BA /* Main.storyboard */; };
+		0CD3C314256CBB7D00694D47 /* LinkViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 0CD3C313256CBB7D00694D47 /* LinkViewController.m */; };
+		0CD3C31D256CBC9300694D47 /* OCView.m in Sources */ = {isa = PBXBuildFile; fileRef = 0CD3C31C256CBC9300694D47 /* OCView.m */; };
+		0CD3C320256CBCED00694D47 /* OCView.m in Sources */ = {isa = PBXBuildFile; fileRef = 0CD3C31C256CBC9300694D47 /* OCView.m */; };
 		0CDF5595256A0F65002C5EDD /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 0CDF5594256A0F65002C5EDD /* AppDelegate.m */; };
-		0CDF5598256A0F65002C5EDD /* SceneDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 0CDF5597256A0F65002C5EDD /* SceneDelegate.m */; };
 		0CDF559B256A0F65002C5EDD /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 0CDF559A256A0F65002C5EDD /* ViewController.m */; };
-		0CDF559E256A0F65002C5EDD /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 0CDF559C256A0F65002C5EDD /* Main.storyboard */; };
 		0CDF55A0256A0F66002C5EDD /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 0CDF559F256A0F66002C5EDD /* Assets.xcassets */; };
 		0CDF55A3256A0F66002C5EDD /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 0CDF55A1256A0F66002C5EDD /* LaunchScreen.storyboard */; };
 		0CDF55A6256A0F66002C5EDD /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 0CDF55A5256A0F66002C5EDD /* main.m */; };
+		0CDF55D0256A0FD0002C5EDD /* WidgetKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 0CDF55B3256A0F76002C5EDD /* WidgetKit.framework */; };
+		0CDF55D1256A0FD0002C5EDD /* SwiftUI.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 0CDF55B5256A0F76002C5EDD /* SwiftUI.framework */; };
+		0CDF55D4256A0FD0002C5EDD /* SwiftUIWidgetDemo.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0CDF55D3256A0FD0002C5EDD /* SwiftUIWidgetDemo.swift */; };
+		0CDF55D7256A0FD2002C5EDD /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 0CDF55D6256A0FD2002C5EDD /* Assets.xcassets */; };
+		0CDF55D9256A0FD2002C5EDD /* SwiftUIWidgetDemo.intentdefinition in Sources */ = {isa = PBXBuildFile; fileRef = 0CDF55D5256A0FD0002C5EDD /* SwiftUIWidgetDemo.intentdefinition */; };
+		0CDF55DA256A0FD2002C5EDD /* SwiftUIWidgetDemo.intentdefinition in Sources */ = {isa = PBXBuildFile; fileRef = 0CDF55D5256A0FD0002C5EDD /* SwiftUIWidgetDemo.intentdefinition */; };
+		0CDF55DD256A0FD2002C5EDD /* SwiftUIWidgetDemoExtension.appex in Embed App Extensions */ = {isa = PBXBuildFile; fileRef = 0CDF55CF256A0FD0002C5EDD /* SwiftUIWidgetDemoExtension.appex */; settings = {ATTRIBUTES = (RemoveHeadersOnCopy, ); }; };
+		A63B4C74257B806E00FA5B39 /* PJWidgetCenter.swift in Sources */ = {isa = PBXBuildFile; fileRef = A63B4C73257B806E00FA5B39 /* PJWidgetCenter.swift */; };
 /* End PBXBuildFile section */
 
+/* Begin PBXContainerItemProxy section */
+		0CDF55DB256A0FD2002C5EDD /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 0CDF5588256A0F65002C5EDD /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 0CDF55CE256A0FD0002C5EDD;
+			remoteInfo = SwiftUIWidgetDemoExtension;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		0CDF55C6256A0F77002C5EDD /* Embed App Extensions */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "";
+			dstSubfolderSpec = 13;
+			files = (
+				0CDF55DD256A0FD2002C5EDD /* SwiftUIWidgetDemoExtension.appex in Embed App Extensions */,
+			);
+			name = "Embed App Extensions";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
 /* Begin PBXFileReference section */
+		0C700652256BCC790098A6BA /* SwiftUIWidget-HeaderPrefix.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "SwiftUIWidget-HeaderPrefix.h"; sourceTree = "<group>"; };
+		0C700659256BCCC80098A6BA /* OCWidgetView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OCWidgetView.swift; sourceTree = "<group>"; };
+		0C700680256BE0E20098A6BA /* WidgetURLViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = WidgetURLViewController.h; sourceTree = "<group>"; };
+		0C700681256BE0E20098A6BA /* WidgetURLViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = WidgetURLViewController.m; sourceTree = "<group>"; };
+		0C700690256BE9A70098A6BA /* SceneDelegate.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SceneDelegate.m; sourceTree = "<group>"; };
+		0C700691256BE9A70098A6BA /* SceneDelegate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SceneDelegate.h; sourceTree = "<group>"; };
+		0C700695256BE9B00098A6BA /* Main.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = Main.storyboard; sourceTree = "<group>"; };
+		0CD3C312256CBB7D00694D47 /* LinkViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = LinkViewController.h; sourceTree = "<group>"; };
+		0CD3C313256CBB7D00694D47 /* LinkViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = LinkViewController.m; sourceTree = "<group>"; };
+		0CD3C31B256CBC9300694D47 /* OCView.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = OCView.h; sourceTree = "<group>"; };
+		0CD3C31C256CBC9300694D47 /* OCView.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = OCView.m; sourceTree = "<group>"; };
 		0CDF5590256A0F65002C5EDD /* SwiftUIWidget.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SwiftUIWidget.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		0CDF5593256A0F65002C5EDD /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		0CDF5594256A0F65002C5EDD /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
-		0CDF5596256A0F65002C5EDD /* SceneDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SceneDelegate.h; sourceTree = "<group>"; };
-		0CDF5597256A0F65002C5EDD /* SceneDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SceneDelegate.m; sourceTree = "<group>"; };
 		0CDF5599256A0F65002C5EDD /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
 		0CDF559A256A0F65002C5EDD /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
-		0CDF559D256A0F65002C5EDD /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		0CDF559F256A0F66002C5EDD /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		0CDF55A2256A0F66002C5EDD /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		0CDF55A4256A0F66002C5EDD /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		0CDF55A5256A0F66002C5EDD /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		0CDF55B3256A0F76002C5EDD /* WidgetKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = WidgetKit.framework; path = System/Library/Frameworks/WidgetKit.framework; sourceTree = SDKROOT; };
+		0CDF55B5256A0F76002C5EDD /* SwiftUI.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SwiftUI.framework; path = System/Library/Frameworks/SwiftUI.framework; sourceTree = SDKROOT; };
+		0CDF55CF256A0FD0002C5EDD /* SwiftUIWidgetDemoExtension.appex */ = {isa = PBXFileReference; explicitFileType = "wrapper.app-extension"; includeInIndex = 0; path = SwiftUIWidgetDemoExtension.appex; sourceTree = BUILT_PRODUCTS_DIR; };
+		0CDF55D3256A0FD0002C5EDD /* SwiftUIWidgetDemo.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SwiftUIWidgetDemo.swift; sourceTree = "<group>"; };
+		0CDF55D5256A0FD0002C5EDD /* SwiftUIWidgetDemo.intentdefinition */ = {isa = PBXFileReference; lastKnownFileType = file.intentdefinition; path = SwiftUIWidgetDemo.intentdefinition; sourceTree = "<group>"; };
+		0CDF55D6256A0FD2002C5EDD /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		0CDF55D8256A0FD2002C5EDD /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		A63B4C73257B806E00FA5B39 /* PJWidgetCenter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PJWidgetCenter.swift; sourceTree = "<group>"; };
+		A63B4C7D257BC7F900FA5B39 /* SwiftUIWidget.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = SwiftUIWidget.entitlements; sourceTree = "<group>"; };
+		A63B4C80257BECA100FA5B39 /* SwiftUIWidgetDemoExtension.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = SwiftUIWidgetDemoExtension.entitlements; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -39,13 +95,25 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
+		0CDF55CC256A0FD0002C5EDD /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				0CDF55D1256A0FD0002C5EDD /* SwiftUI.framework in Frameworks */,
+				0CDF55D0256A0FD0002C5EDD /* WidgetKit.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
 		0CDF5587256A0F65002C5EDD = {
 			isa = PBXGroup;
 			children = (
+				A63B4C80257BECA100FA5B39 /* SwiftUIWidgetDemoExtension.entitlements */,
 				0CDF5592256A0F65002C5EDD /* SwiftUIWidget */,
+				0CDF55D2256A0FD0002C5EDD /* SwiftUIWidgetDemo */,
+				0CDF55B2256A0F76002C5EDD /* Frameworks */,
 				0CDF5591256A0F65002C5EDD /* Products */,
 			);
 			sourceTree = "<group>";
@@ -54,6 +122,7 @@
 			isa = PBXGroup;
 			children = (
 				0CDF5590256A0F65002C5EDD /* SwiftUIWidget.app */,
+				0CDF55CF256A0FD0002C5EDD /* SwiftUIWidgetDemoExtension.appex */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -61,19 +130,49 @@
 		0CDF5592256A0F65002C5EDD /* SwiftUIWidget */ = {
 			isa = PBXGroup;
 			children = (
+				A63B4C7D257BC7F900FA5B39 /* SwiftUIWidget.entitlements */,
 				0CDF5593256A0F65002C5EDD /* AppDelegate.h */,
 				0CDF5594256A0F65002C5EDD /* AppDelegate.m */,
-				0CDF5596256A0F65002C5EDD /* SceneDelegate.h */,
-				0CDF5597256A0F65002C5EDD /* SceneDelegate.m */,
+				0C700691256BE9A70098A6BA /* SceneDelegate.h */,
+				0C700690256BE9A70098A6BA /* SceneDelegate.m */,
 				0CDF5599256A0F65002C5EDD /* ViewController.h */,
 				0CDF559A256A0F65002C5EDD /* ViewController.m */,
-				0CDF559C256A0F65002C5EDD /* Main.storyboard */,
+				0C700680256BE0E20098A6BA /* WidgetURLViewController.h */,
+				0C700681256BE0E20098A6BA /* WidgetURLViewController.m */,
+				0CD3C312256CBB7D00694D47 /* LinkViewController.h */,
+				0CD3C313256CBB7D00694D47 /* LinkViewController.m */,
+				0CD3C31B256CBC9300694D47 /* OCView.h */,
+				0CD3C31C256CBC9300694D47 /* OCView.m */,
+				0C700652256BCC790098A6BA /* SwiftUIWidget-HeaderPrefix.h */,
+				0C700659256BCCC80098A6BA /* OCWidgetView.swift */,
+				A63B4C73257B806E00FA5B39 /* PJWidgetCenter.swift */,
 				0CDF559F256A0F66002C5EDD /* Assets.xcassets */,
+				0C700695256BE9B00098A6BA /* Main.storyboard */,
 				0CDF55A1256A0F66002C5EDD /* LaunchScreen.storyboard */,
 				0CDF55A4256A0F66002C5EDD /* Info.plist */,
 				0CDF55A5256A0F66002C5EDD /* main.m */,
 			);
 			path = SwiftUIWidget;
+			sourceTree = "<group>";
+		};
+		0CDF55B2256A0F76002C5EDD /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				0CDF55B3256A0F76002C5EDD /* WidgetKit.framework */,
+				0CDF55B5256A0F76002C5EDD /* SwiftUI.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		0CDF55D2256A0FD0002C5EDD /* SwiftUIWidgetDemo */ = {
+			isa = PBXGroup;
+			children = (
+				0CDF55D3256A0FD0002C5EDD /* SwiftUIWidgetDemo.swift */,
+				0CDF55D5256A0FD0002C5EDD /* SwiftUIWidgetDemo.intentdefinition */,
+				0CDF55D6256A0FD2002C5EDD /* Assets.xcassets */,
+				0CDF55D8256A0FD2002C5EDD /* Info.plist */,
+			);
+			path = SwiftUIWidgetDemo;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -86,15 +185,38 @@
 				0CDF558C256A0F65002C5EDD /* Sources */,
 				0CDF558D256A0F65002C5EDD /* Frameworks */,
 				0CDF558E256A0F65002C5EDD /* Resources */,
+				0CDF55C6256A0F77002C5EDD /* Embed App Extensions */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				0CDF55DC256A0FD2002C5EDD /* PBXTargetDependency */,
+			);
+			name = SwiftUIWidget;
+			packageProductDependencies = (
+			);
+			productName = SwiftUIWidget;
+			productReference = 0CDF5590256A0F65002C5EDD /* SwiftUIWidget.app */;
+			productType = "com.apple.product-type.application";
+		};
+		0CDF55CE256A0FD0002C5EDD /* SwiftUIWidgetDemoExtension */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 0CDF55DE256A0FD2002C5EDD /* Build configuration list for PBXNativeTarget "SwiftUIWidgetDemoExtension" */;
+			buildPhases = (
+				0CDF55CB256A0FD0002C5EDD /* Sources */,
+				0CDF55CC256A0FD0002C5EDD /* Frameworks */,
+				0CDF55CD256A0FD0002C5EDD /* Resources */,
 			);
 			buildRules = (
 			);
 			dependencies = (
 			);
-			name = SwiftUIWidget;
-			productName = SwiftUIWidget;
-			productReference = 0CDF5590256A0F65002C5EDD /* SwiftUIWidget.app */;
-			productType = "com.apple.product-type.application";
+			name = SwiftUIWidgetDemoExtension;
+			packageProductDependencies = (
+			);
+			productName = SwiftUIWidgetDemoExtension;
+			productReference = 0CDF55CF256A0FD0002C5EDD /* SwiftUIWidgetDemoExtension.appex */;
+			productType = "com.apple.product-type.app-extension";
 		};
 /* End PBXNativeTarget section */
 
@@ -102,9 +224,14 @@
 		0CDF5588256A0F65002C5EDD /* Project object */ = {
 			isa = PBXProject;
 			attributes = {
+				LastSwiftUpdateCheck = 1210;
 				LastUpgradeCheck = 1210;
 				TargetAttributes = {
 					0CDF558F256A0F65002C5EDD = {
+						CreatedOnToolsVersion = 12.1;
+						LastSwiftMigration = 1210;
+					};
+					0CDF55CE256A0FD0002C5EDD = {
 						CreatedOnToolsVersion = 12.1;
 					};
 				};
@@ -118,11 +245,14 @@
 				Base,
 			);
 			mainGroup = 0CDF5587256A0F65002C5EDD;
+			packageReferences = (
+			);
 			productRefGroup = 0CDF5591256A0F65002C5EDD /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
 				0CDF558F256A0F65002C5EDD /* SwiftUIWidget */,
+				0CDF55CE256A0FD0002C5EDD /* SwiftUIWidgetDemoExtension */,
 			);
 		};
 /* End PBXProject section */
@@ -132,9 +262,17 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				0C700696256BE9B00098A6BA /* Main.storyboard in Resources */,
 				0CDF55A3256A0F66002C5EDD /* LaunchScreen.storyboard in Resources */,
 				0CDF55A0256A0F66002C5EDD /* Assets.xcassets in Resources */,
-				0CDF559E256A0F65002C5EDD /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		0CDF55CD256A0FD0002C5EDD /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				0CDF55D7256A0FD2002C5EDD /* Assets.xcassets in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -145,24 +283,41 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				0CDF55DA256A0FD2002C5EDD /* SwiftUIWidgetDemo.intentdefinition in Sources */,
+				0CD3C31D256CBC9300694D47 /* OCView.m in Sources */,
 				0CDF559B256A0F65002C5EDD /* ViewController.m in Sources */,
+				0C700692256BE9A70098A6BA /* SceneDelegate.m in Sources */,
+				0CD3C314256CBB7D00694D47 /* LinkViewController.m in Sources */,
 				0CDF5595256A0F65002C5EDD /* AppDelegate.m in Sources */,
 				0CDF55A6256A0F66002C5EDD /* main.m in Sources */,
-				0CDF5598256A0F65002C5EDD /* SceneDelegate.m in Sources */,
+				A63B4C74257B806E00FA5B39 /* PJWidgetCenter.swift in Sources */,
+				0C700682256BE0E20098A6BA /* WidgetURLViewController.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		0CDF55CB256A0FD0002C5EDD /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				0C700685256BE0F30098A6BA /* WidgetURLViewController.m in Sources */,
+				0CDF55D4256A0FD0002C5EDD /* SwiftUIWidgetDemo.swift in Sources */,
+				0CD3C320256CBCED00694D47 /* OCView.m in Sources */,
+				0CDF55D9256A0FD2002C5EDD /* SwiftUIWidgetDemo.intentdefinition in Sources */,
+				0C700674256BCDE00098A6BA /* OCWidgetView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXSourcesBuildPhase section */
 
-/* Begin PBXVariantGroup section */
-		0CDF559C256A0F65002C5EDD /* Main.storyboard */ = {
-			isa = PBXVariantGroup;
-			children = (
-				0CDF559D256A0F65002C5EDD /* Base */,
-			);
-			name = Main.storyboard;
-			sourceTree = "<group>";
+/* Begin PBXTargetDependency section */
+		0CDF55DC256A0FD2002C5EDD /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 0CDF55CE256A0FD0002C5EDD /* SwiftUIWidgetDemoExtension */;
+			targetProxy = 0CDF55DB256A0FD2002C5EDD /* PBXContainerItemProxy */;
 		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
 		0CDF55A1256A0F66002C5EDD /* LaunchScreen.storyboard */ = {
 			isa = PBXVariantGroup;
 			children = (
@@ -289,9 +444,14 @@
 		0CDF55AA256A0F66002C5EDD /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CLANG_ENABLE_MODULES = YES;
+				CODE_SIGN_ENTITLEMENTS = SwiftUIWidget/SwiftUIWidget.entitlements;
 				CODE_SIGN_STYLE = Automatic;
+				DEFINES_MODULE = YES;
+				DEVELOPMENT_TEAM = U6J5965DZK;
 				INFOPLIST_FILE = SwiftUIWidget/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
@@ -299,6 +459,12 @@
 				);
 				PRODUCT_BUNDLE_IDENTIFIER = com.pjhubs.SwiftUIWidget;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_INSTALL_OBJC_HEADER = YES;
+				SWIFT_OBJC_BRIDGING_HEADER = "SwiftUIWidget/SwiftUIWidget-HeaderPrefix.h";
+				SWIFT_OBJC_INTERFACE_HEADER_NAME = "SwiftUIWidget-Swift.h";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_PRECOMPILE_BRIDGING_HEADER = YES;
+				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
 			name = Debug;
@@ -306,9 +472,14 @@
 		0CDF55AB256A0F66002C5EDD /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CLANG_ENABLE_MODULES = YES;
+				CODE_SIGN_ENTITLEMENTS = SwiftUIWidget/SwiftUIWidget.entitlements;
 				CODE_SIGN_STYLE = Automatic;
+				DEFINES_MODULE = YES;
+				DEVELOPMENT_TEAM = U6J5965DZK;
 				INFOPLIST_FILE = SwiftUIWidget/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
@@ -316,6 +487,67 @@
 				);
 				PRODUCT_BUNDLE_IDENTIFIER = com.pjhubs.SwiftUIWidget;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_INSTALL_OBJC_HEADER = YES;
+				SWIFT_OBJC_BRIDGING_HEADER = "SwiftUIWidget/SwiftUIWidget-HeaderPrefix.h";
+				SWIFT_OBJC_INTERFACE_HEADER_NAME = "SwiftUIWidget-Swift.h";
+				SWIFT_PRECOMPILE_BRIDGING_HEADER = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		0CDF55DF256A0FD2002C5EDD /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				ASSETCATALOG_COMPILER_WIDGET_BACKGROUND_COLOR_NAME = WidgetBackground;
+				CODE_SIGN_ENTITLEMENTS = SwiftUIWidgetDemoExtension.entitlements;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = U6J5965DZK;
+				INFOPLIST_FILE = SwiftUIWidgetDemo/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@executable_path/../../Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.pjhubs.SwiftUIWidget.pj.SwiftUIWidgetDemo;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_INSTALL_OBJC_HEADER = YES;
+				SWIFT_OBJC_BRIDGING_HEADER = "SwiftUIWidget/SwiftUIWidget-HeaderPrefix.h";
+				SWIFT_OBJC_INTERFACE_HEADER_NAME = "SwiftUIWidget-HeaderPrefix.h";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_PRECOMPILE_BRIDGING_HEADER = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		0CDF55E0256A0FD2002C5EDD /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				ASSETCATALOG_COMPILER_WIDGET_BACKGROUND_COLOR_NAME = WidgetBackground;
+				CODE_SIGN_ENTITLEMENTS = SwiftUIWidgetDemoExtension.entitlements;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = U6J5965DZK;
+				INFOPLIST_FILE = SwiftUIWidgetDemo/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@executable_path/../../Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.pjhubs.SwiftUIWidget.pj.SwiftUIWidgetDemo;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SKIP_INSTALL = YES;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_INSTALL_OBJC_HEADER = YES;
+				SWIFT_OBJC_BRIDGING_HEADER = "SwiftUIWidget/SwiftUIWidget-HeaderPrefix.h";
+				SWIFT_OBJC_INTERFACE_HEADER_NAME = "SwiftUIWidget-HeaderPrefix.h";
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				SWIFT_PRECOMPILE_BRIDGING_HEADER = YES;
+				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
 			name = Release;
@@ -337,6 +569,15 @@
 			buildConfigurations = (
 				0CDF55AA256A0F66002C5EDD /* Debug */,
 				0CDF55AB256A0F66002C5EDD /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		0CDF55DE256A0FD2002C5EDD /* Build configuration list for PBXNativeTarget "SwiftUIWidgetDemoExtension" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				0CDF55DF256A0FD2002C5EDD /* Debug */,
+				0CDF55E0256A0FD2002C5EDD /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
